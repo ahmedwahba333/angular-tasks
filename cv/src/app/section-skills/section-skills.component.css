@@ -1,0 +1,55 @@
+.skills{
+    text-align: center;
+    background-color: #A2B07D;
+    padding: 3rem 5rem;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.progress{
+    height: 2rem;
+}
+
+
+.skills-content-child{
+display: flex;
+justify-content: space-evenly;
+}
+.skills-content-left{
+    width: 15rem;
+    margin: auto;
+}
+.skills-content-right{
+width: 40rem;
+display: flex;
+align-items: center;
+}
+
+.skills-right{
+    margin-bottom: 3rem;
+}
+
+.skills-content-right p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    background-color: #E9ECEF;
+    padding: 5px 20px;
+    color: black;
+}
+.skills-content-right .left{
+    display: flex;
+    flex-direction: column;
+}
+.progress{
+    width: 30rem;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width:768px) {
+    .progress{
+        width: 11rem;
+        margin-bottom: 1rem;
+    }
+}

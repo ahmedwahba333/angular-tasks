@@ -1,0 +1,48 @@
+.portfolio h1 {
+    text-shadow: 5px 3px #acacac;
+    margin-bottom: 2rem;
+}
+
+.portfolio-card:nth-child(odd) {
+    background-color: #b5c38b;
+}
+
+.portfolio-card:nth-child(even) {
+    background-color: #727f4a;
+}
+
+
+.portfolio-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.portfolio-card-content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-card-content hr {
+    background-color: #fff;
+    height: 5px;
+    width: 60%;
+}
+
+.portfolio-card-content p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.portfolio-card {
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}

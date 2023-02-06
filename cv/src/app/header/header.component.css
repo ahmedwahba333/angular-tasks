@@ -1,0 +1,25 @@
+/* .header{
+    background-image: url("./assets/coverImg");} */
+    .header{
+     background-image: url('../../assets/imgs/coverHeader.jpg');
+     background-size: cover;
+     background-position: 45% 35%;
+     height: 80vh;
+     margin-bottom: 5rem;
+    }
+    .headerConent{
+        color: #fff;
+        margin-left: 10%;
+        padding-top:20vh ;
+        width: fit-content;
+        text-align: center;
+    }
+    .headerConent p{
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    .headerConent button{
+        margin-top: 20px;
+        padding-left:30px ;
+        padding-right:30px ;
+    }
