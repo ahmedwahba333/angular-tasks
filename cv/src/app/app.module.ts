@@ -7,6 +7,9 @@ import { SectionAboutUsComponent } from './section-about-us/section-about-us.com
 import { SectionSkillsComponent } from './section-skills/section-skills.component';
 import { SectionPortfolioComponent } from './section-portfolio/section-portfolio.component';
 import { FooterComponent } from './footer/footer.component';
+import { SkillbarComponent } from './skillbar/skillbar.component';
+import { SkillNameComponent } from './skill-name/skill-name.component';
+import { PortfolioContentComponent } from './portfolio-content/portfolio-content.component';
 //...
 
 @NgModule({
@@ -17,6 +20,9 @@ import { FooterComponent } from './footer/footer.component';
     SectionSkillsComponent,
     SectionPortfolioComponent,
     FooterComponent,
+    SkillbarComponent,
+    SkillNameComponent,
+    PortfolioContentComponent,
   ],
   imports: [
     BrowserModule

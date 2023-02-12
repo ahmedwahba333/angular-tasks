@@ -26,77 +26,14 @@
 
                 <div class="skills-content-right">
                     <div class="left">
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JavaScript</p>
-                        <p>Bootstrap</p>
-                        <p>JQuery</p>
-                        <p>Angular</p>
-                        <p>PHP</p>
-                        <p>Laravel</p>
+                        <p *ngFor="let skill of skillnames;">
+                            <app-skill-name [skillname]="skill"></app-skill-name>
+                        </p>
                     </div>
                     <div class="right">
-                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="98"
-                            aria-valuemin="0" aria-valuemax="100">
-
-                            <div class="progress-bar bg-success" style="width: 98%"></div>
-                        </div>
-
-
-
-                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="98"
-                            aria-valuemin="0" aria-valuemax="100">
-
-                            <div class="progress-bar bg-success" style="width: 98%"></div>
-                        </div>
-
-
-
-                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="90"
-                            aria-valuemin="0" aria-valuemax="100">
-
-                            <div class="progress-bar bg-success" style="width: 90%"></div>
-                        </div>
-
-
-
-                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="93"
-                            aria-valuemin="0" aria-valuemax="100">
-
-                            <div class="progress-bar bg-success" style="width: 93%"></div>
-                        </div>
-
-
-
-                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100"
-                            aria-valuemin="0" aria-valuemax="100">
-
-                            <div class="progress-bar bg-success" style="width: 80%"></div>
-                        </div>
-
-
-
-                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="95"
-                            aria-valuemin="0" aria-valuemax="100">
-
-                            <div class="progress-bar bg-success" style="width: 95%"></div>
-                        </div>
-
-
-
-                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="85"
-                            aria-valuemin="0" aria-valuemax="100">
-
-                            <div class="progress-bar bg-success" style="width: 85%"></div>
-                        </div>
-
-
-
-                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="88"
-                            aria-valuemin="0" aria-valuemax="100">
-
-                            <div class="progress-bar bg-success" style="width: 88%"></div>
-
+                        
+                        <div class="progress" *ngFor="let myWidth of width">
+                            <div class="progress-bar bg-success" [ngStyle]="{'width': myWidth}"></div>
                         </div>
                     </div>
                 </div>

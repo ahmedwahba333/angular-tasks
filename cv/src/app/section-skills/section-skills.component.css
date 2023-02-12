@@ -6,9 +6,7 @@
     margin-bottom: 3rem;
 }
 
-.progress{
-    height: 2rem;
-}
+
 
 
 .skills-content-child{
@@ -43,6 +41,7 @@ align-items: center;
     flex-direction: column;
 }
 .progress{
+    height: 2rem;
     width: 30rem;
     margin-bottom: 1rem;
 }
